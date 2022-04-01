@@ -1,0 +1,31 @@
+Escribir un programa que pida los datos de varios empleados. Los datos que nos interesan de dichos
+empleados son el nombre, dni, edad, estatura (heredados de la clase Persona) y sueldo.
+
+Al comenzar la ejecución, se le preguntará al usuario si desea cargar los datos de empleados de un
+fichero binario, o desea insertarlos desde consola (Se estarán insertando datos de empleados hasta
+que el usuario indique que no quiere insertar ninguno más).
+
+Sea de una u otra forma, la aplicación insertará estos datos en un Diccionario de datos (o Mapa),
+en el que la clave se corresponderá con el dni del empleado, y el valor, con el objeto empleado completo.
+
+Una vez cargados los datos en ese Mapa (que debe estar disponible para el resto de operaciones de
+la aplicación), se le darán varias opciones al usuario:
+
+1. VISUALIZAR LISTADO: Visualizar los datos de todos los empleados en el mismo orden que se insertaron.
+
+2. BORRAR EMPLEADO/S: Se le pedirá el dni de un empleado con el fin de borrarlo del map. Tener en cuenta
+que puede que no haya ningún empleado con ese dni. Esta operación se seguirá realizando hasta que el
+usuario indique su fin.
+
+3. VISUALIZAR EMPLEADO: Se pedirá al usuario un dni con el fin de visualizar los datos de ese empleado.
+
+4. MODIFICAR EMPLEADO: Permitirá al usuario modificar los datos de un empleado concreto, indicando para
+ello el dni del empleado que quiere cambiar. La modificación consistirá en pedir, de nuevo todos los datos
+de dicho empleado menos el dni, que no es modificable.
+
+5. INSERTAR EMPLEADO/S: Por último, el programa dará la opción de insertar nuevos empleados.
+
+Después de cada operación, se visualizará la lista para ver cómo va quedando.
+
+Cuando el usuario indique que no desea hacer más operaciones, los datos han de ser volcados en el archivo
+binario que se cargó al principio (o en uno por defecto si el usuario no hubiera indicado ninguno).
