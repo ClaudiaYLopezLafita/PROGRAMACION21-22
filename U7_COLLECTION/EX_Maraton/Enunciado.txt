@@ -1,0 +1,40 @@
+Queremos desarrollar una aplicación para la gestión de la Maratón (será una clase) de Castilleja de
+ la Cuesta que es una prueba internacional a la que vienen atletas de muchos países.
+
+Una vez se han inscrito, a los atletas se les dota de un número dorsal que será el dato utilizado
+ tanto para acceder a sus datos como para guardar la marca que hay realizado en el Maratón.
+
+Además de ese dorsal hay otro tipo de información que debemos guardar de cada atleta:
+
+El nombre de la atleta.
+El país del atleta.
+La marca realizada que será el número de segundos que le ha costado al atleta realizar al maratón.
+ Evidentemente al realizar esa inscripción ese valor no será cumplimentado.
+La categoría del atleta, que podrá ser alguna de estas (SENIOR,JUNIOR, VETERANO).
+Si el usuario ha acabado o no la prueba (es "finisher")
+Con esta estructura montada en nuestra aplicación principal se nos mostrará el siguiente menú:
+
+Cargar Atletas que recogerá la información de todos los atletas que ya se hayan inscrito y la almacenará
+ en la estructura de datos oportuna. Esos datos estarán recogidos en el fichero binario maraton.dat
+
+Guardar Atletas que escribirá en el fichero anteriormente nombrado los atletas que se han inscrito.
+
+Inscribir Atleta que solicitará por pantalla los datos del atleta y realizará la inscripición.
+Tened en cuenta que el número de dorsal que se adjudica a los atletas es por orden de inscripción.
+-- En la ultima frase quiere decir que el numero de es un contador de Atltar un atributo staticos
+que le da valor a la dorsal,---
+
+Guardar Tiempo que recibirá el dorsal del atleta y un tiempo y guardará el tiempo asociado a
+dicho atleta modificando también su estado para que sea considerado "finisher"
+
+Borrar Atleta que pedirá un número de dorsal y dará de baja del maratón a dicho atleta.
+
+MostrarListaFinishers() que mostrará la lista de los atletas que han acabado ordenados por tiempos.
+
+MostrarListaCategoria() que mostrará la lista de los atletas de una determinada categoría
+(que se pasa como parámetro), ordenador por tiempos.
+
+ParticipantesPorPaís() que recibe el nombre de un país y nos dice el número de inscritos de dicho país.
+
+Salir
+
