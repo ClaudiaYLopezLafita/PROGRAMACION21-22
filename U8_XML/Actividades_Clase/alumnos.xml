@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <!-- comentario A-->
+    <alumno>
+        <nameC>Juan Diego Perez</nameC>
+        <edad>45</edad>
+    </alumno>
+    <!-- comentario B-->
+    <alumno>
+        <nameC>Pepe Lopez Diaz</nameC>
+        <edad>52</edad>
+    </alumno>
+</alumnos>

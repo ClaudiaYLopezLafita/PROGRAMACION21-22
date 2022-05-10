@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Perros>
+    <Perro Id="0">
+        <Nombre>Toby</Nombre>
+        <Raza>Cahiche</Raza>
+        <Edad>12</Edad>
+    </Perro>
+    <Perro Id="1">
+        <Nombre>Pochi</Nombre>
+        <Raza>Pastor Aleman</Raza>
+        <Edad>3</Edad>
+    </Perro>
+    <Perro Id="2">
+        <Nombre>Kody</Nombre>
+        <Raza>Bulldog</Raza>
+        <Edad>9</Edad>
+    </Perro>
+    <Perro Id="3">
+        <Nombre>Procopio</Nombre>
+        <Raza>Boxer</Raza>
+        <Edad>6</Edad>
+    </Perro>
+    <Perro Id="4">
+        <Nombre>Pancho</Nombre>
+        <Raza>Chihuahua</Raza>
+        <Edad>2</Edad>
+    </Perro>
+</Perros>
